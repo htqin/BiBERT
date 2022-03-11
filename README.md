@@ -10,7 +10,7 @@ This project is the official implementation of our accepted ICLR 2022 paper *BiB
 
 ## Dependencies
 
-```
+```shell
 pip install -r requirements.txt
 ```
 
@@ -27,11 +27,15 @@ For data augmentation on GLUE, please follow the instruction in [TinyBERT](https
 
 Our experiments are based on the fine-tuned full-precision DynaBERT, which can be found [here](https://drive.google.com/file/d/1pYApaDcse5QIB6lZagWO0uElAavFazpA/view?usp=sharing). Complete running scripts and more detailed tips are provided in `./scripts`. Go through each script for more detail, and our corresponding well-trained BiBERT models are provided in [here](https://drive.google.com/drive/folders/1xEEIynvsYuqqG6wRlMhSySUusZWoR1FL?usp=sharing).
 
+## Acknowledgement
+
+The original code is borrowed from [BinaryBERT](https://github.com/huawei-noah/Pretrained-Language-Model/tree/master/BinaryBERT) and [DynaBERT](https://github.com/huawei-noah/Pretrained-Language-Model/tree/master/DynaBERT).
+
 ## Citation
 
 If you find our work useful in your research, please consider citing:
 
-```
+```shell
 @inproceedings{Qin:iclr22,
   author    = {Haotong Qin and Yifu Ding and Mingyuan Zhang and Qinghua Yan and 
   Aishan Liu and Qingqing Dang and Ziwei Liu and Xianglong Liu},
